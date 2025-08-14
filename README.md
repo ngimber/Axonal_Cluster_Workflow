@@ -3,6 +3,7 @@
 **Automated ImageJ and Python/Jupyter Notebook pipeline for segmentation and spatial analysis of BASP1 and PLPPR3 protein clusters in hippocampal neuron axons.**  
 
 This workflow, developed for spatial analysis of **PLPPR3**, **BASP1**, **Synaptophysin-1**, and **Drebrin** in hippocampal neurons, was published in *bioRxiv* by Kroon *et al.* ([DOI:10.1101/2024.03.11.584206](https://doi.org/10.1101/2024.03.11.584206)).  
+For detailed parameter settings and processing rationale, see the Methods section of Kroon et al. .
 
 ---
 
@@ -37,7 +38,7 @@ The macro’s GUI allows you to:
    - Skeletonization  
 
 2. **Cluster Segmentation**  
-   - Rolling ball background subtraction  
+   - Rolling ball background subtraction   
    - Gaussian blur (140 nm)  
    - Noise removal (Opening)  
    - Thresholding (Intermodes)  
